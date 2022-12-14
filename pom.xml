@@ -104,7 +104,7 @@
 					</cloudHubDeployment>
 					<!-- <sharedLibraries>
 						<sharedLibrary>
-							<groupId>com.oracle</groupId>
+							<groupIdcom.oracle.database.jdbc</groupId>
 							<artifactId>ojdbc8</artifactId>
 						</sharedLibrary>
 					</sharedLibraries> -->
@@ -139,9 +139,9 @@
 			<classifier>mule-plugin</classifier>
 		</dependency>
 		<dependency>
-			<groupId>com.oracle</groupId>
-			<artifactId>ojdbc8</artifactId>
-			<version>19.3</version>
+		    <groupId>com.oracle.database.jdbc</groupId>
+		    <artifactId>ojdbc8</artifactId>
+		    <version>21.8.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.mulesoft.modules</groupId>
