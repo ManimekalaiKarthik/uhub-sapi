@@ -102,12 +102,12 @@
 							<anypoint.platform.analytics_base_uri>https://analytics-ingest.anypoint.mulesoft.com</anypoint.platform.analytics_base_uri>
 						</properties>
 					</cloudHubDeployment>
-					<sharedLibraries>
+					<!-- <sharedLibraries>
 						<sharedLibrary>
 							<groupId>com.oracle</groupId>
 							<artifactId>ojdbc8</artifactId>
 						</sharedLibrary>
-					</sharedLibraries>
+					</sharedLibraries> -->
 				</configuration>
 			</plugin>
 		</plugins>
@@ -141,7 +141,7 @@
 		<dependency>
 			<groupId>com.oracle</groupId>
 			<artifactId>ojdbc8</artifactId>
-			<version>0.1</version>
+			<version>19.3</version>
 		</dependency>
 		<dependency>
 			<groupId>com.mulesoft.modules</groupId>
